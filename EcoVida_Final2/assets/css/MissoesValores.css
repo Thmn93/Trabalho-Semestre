@@ -1,0 +1,36 @@
+#containerColunas, #verde{
+    color: #02391E;
+    background-color: #99e631;        
+    font-size: 50px;
+    font-family: Inter;
+    justify-content: flex-end;   
+}
+#containerColunas >p{
+    font-family: Inter;
+    weight: 100;
+    padding: 30px;
+}
+.quadradinho-1{
+    font-weight: 100;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#branca{
+    background-color: #02391E;
+    color:white;
+    justify-content: flex-end;      
+}
+
+p{
+    text-align: center ;    
+    overflow: hidden;
+}
+#texto_dentro{
+    display: flex;    
+}

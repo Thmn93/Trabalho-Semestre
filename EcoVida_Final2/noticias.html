@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoviva - Notícias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style-2.css">
+    <style>
+        .noticias-conteiner{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .noticias-mosaico{
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+        }
+        .noticias-noticia{
+            padding: 15px;
+            max-height: 473px;
+            max-width: 220px;
+        }
+        .noticias-noticia >h1{
+            font-size: 17px;
+            color: #02391E
+        }
+        .noticias-noticia >p{
+            font-size: 9px;
+        }
+
+        .box > h1{
+            font-size: 15px;
+            color: #02391E;
+        }
+
+        .box >p{
+            font-size: 9px;
+        }
+
+        .noticias-autor{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .noticias-autor >p{
+            font-size: 13px;
+        }
+        .box {
+            max-width: 220px;
+            max-height: 473px;
+            min-width: 220px;
+            min-height: 473px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: #f8f8f8;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            padding-top: 15px;
+            align-items: flex-end;
+        }
+        .titulo-pagina{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <script>
+        function redirecionarParaLink() {
+            window.location.href ='noticia-2.html';
+        }
+        function redirecionarParaLink2() {
+            window.location.href ='noticia-3.html';
+        }
+        function redirecionarParaLink3() {
+            window.location.href ='noticia-4.html';
+        }
+        function redirecionarParaLink4() {
+            window.location.href ='noticia-5.html';
+        }
+        function redirecionarParaLink5() {
+            window.location.href ='noticia-6.html';
+        }
+        function redirecionarParaLink6() {
+            window.location.href ='noticia-7.html';
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="lado-direito navbar-menu">
+                <ul class="navbar-1" id="direito">
+                    <ol><a href="quem-somos.html"><p>Quem Somos</p></a></ol>
+                    <ol><a href="#servicos.html"><p>Serviços</p></a></ol>
+                </ul>
+            </div> <!-- Div Lado Direto-->
+            <div class="navbar-logo" id="logo">
+                <a href="index.html"><img src="assets/logo.png" width="150" height="150"></a>
+            </div> <!-- Div Logotipo-->
+            <div class="lado-esquerdo navbar-menu"> 
+                <ul class="navbar-2" id="esquerdo">
+                    <ol><a href="noticias.html"><p>Noticias</p></a></ol>
+                    <ol><a href="contato.html"><p>Contato</p></a></ol>
+                </ul>
+            </div> <!-- Div Lado Esquerdo -->
+        </div>
+    </nav>
+    <main>
+        <div class="noticias-conteiner">
+            <div class="noticias-principal">
+                <div class="titulo-pagina">
+                    <h1>Notícias</h1>
+                </div>
+                <img src="assets/img/Notícias/noticia-1.png">
+            </div> <!--noticias-principal-->
+            <br>
+            <br>
+            <div class="noticias-mosaico">
+                <div class="box" onclick="redirecionarParaLink()">
+                    <img src="assets/img/Notícias/noticia-9.png">
+                    <h1>Ministério quer retirar do Ibama competência para licenciar produção de 'gás de xisto'</h1>
+                    <p>Com mudança, secretarias estaduais de meio ambiente ficariam responsáveis pelo licenciamento das atividades de produção de gás natural não convencional.</p>
+                    <div class="noticias-autor">
+                        <p>Por Lais Carregosa</p>
+                    </div>
+                </div><!--noticias-noticia-->
+
+                <div class="box" onclick="redirecionarParaLink2()">
+                    <img src="assets/img/Notícias/noticia-2.png">
+                    <h1>A poluição plástica afeta 88% das espécies marinhas, conforme o WWF.</h1>
+                    <p>A presença de plástico no ambiente marinho prejudica pelo menos 2.144 espécies, que podem ingerir ou ficar presas no material. A situação é grave, pois os plásticos, incluindo microplásticos, estão cada vez mais presentes nos oceanos, causando danos à fauna marinha e ao ecossistema como um todo. </p>
+                    <div class="noticias-autor">
+                        <p>Por Deutsche Welle</p>
+                    </div>
+                </div><!--noticias-noticia-->
+
+                <div class="box" onclick="redirecionarParaLink3()">
+                    <img src="assets/img/Notícias/noticia-4.png">
+                    <h1>Amapá integra mapa nacional de monitoramento de secas pela primeira vez</h1>
+                    <p>O Amapá foi incluído pela primeira vez no Mapa Nacional de Monitoramento de Secas. Este mapa é uma ferramenta importante para acompanhar e prevenir os impactos das secas, fornecendo dados essenciais para a gestão de recursos hídricos e a mitigação dos efeitos das mudanças climáticas no estado.</p>
+                    <div class="noticias-autor">
+                        <p>Por Isadora Pereira</p>
+                    </div>
+                </div><!--noticias-noticia-->
+
+            </div> <!--noticias-mosaico-->
+            <div class="noticias-mosaico">
+                <div class="box" onclick="redirecionarParaLink4()">
+                    <img src="assets/img/Notícias/noticia-5.png">
+                    <h1>Conheça o lagarto Jesus, uma espécie tipo de raro</h1>
+                    <p>O lagarto Jesus, ou basilisco comum (Basiliscus basiliscus), é um réptil da América Central e do Sul, famoso por sua habilidade de correr sobre a água. Esta habilidade única é possível graças às suas patas traseiras longas e rápidas. O basilisco também é ágil na natação e na escalada de árvores, e os machos possuem uma crista pronunciada.</p>
+                    <div class="noticias-autor">
+                        <p>Por Heloísa Barrense</p>
+                    </div>
+                </div><!--noticias-noticia-->
+
+                <div class="box" onclick="redirecionarParaLink5()">
+                    <img src="assets/img/Notícias/noticia-6.png">
+                    <h1>Nova onda global de branqueamento de corais é sinal da morte dos oceanos?</h1>
+                    <p>Uma nova onda global de branqueamento de corais está ocorrendo, causada pelo aumento das temperaturas dos oceanos. Esse fenômeno, que faz com que os corais percam suas cores vibrantes e se tornem brancos, indica um grave estresse ambiental. </p>
+                    <div class="noticias-autor">
+                        <p>Por Georgina Rannard</p>
+                    </div>
+                </div><!--noticias-noticia-->
+
+                <div class="box" onclick="redirecionarParaLink6()">
+                    <img src="assets/img/Notícias/noticia-7.png">
+                    <h1>Como é viver em um veleiro navegando pela costa amazônica</h1>
+                    <p>O artigo do Greenpeace retrata a fascinante jornada de viver em um veleiro enquanto navega pela deslumbrante costa amazônica. Ele mergulha na vida cotidiana da equipe que escolheu essa aventura, destacando os desafios logísticos e emocionais enfrentados a bordo.</p>
+                    <div class="noticias-autor">
+                        <p>Por Lu Sudré</p>
+                    </div>
+                </div><!--noticias-noticia-->
+
+            </div> <!--noticias-mosaico-->
+        </div> <!--noticias-conteiner-->
+        <br>
+        <br>    
+        <br>
+        <br>
+    </main>
+    <footer>
+        <div class="conteiner-footer"> 
+            <div class="footer-1">
+                <div class="icone-01">
+                    <img src="assets/img/icons/facebook.png">
+                    <p id="footer-links">fb.com/EcoViva</p>
+                </div>
+                <div class="icone-01">
+                    <img src="assets/img/icons/instagram.png">
+                    <p id="footer-links">@EcoViva</p>
+                </div>
+                <div class="icone-01">
+                    <img src="assets/img/icons/telegram.png">
+                    <p id="footer-links">EcoViva News</p>
+                </div>
+                <div class="icone-01">
+                    <img src="assets/img/icons/linkedin.png">
+                    <p id="footer-links">EcoViva</p>
+                </div>
+            </div>
+            <div class="footer-2">
+                <div class="footer-links">
+                    <div class="titulo">
+                        <h1>Institucional</h1>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="nav-list">
+                        <ul>
+                            <li class="nav-item-direito"><a href="quem-somos.html" class="nav-item">Quem Somos?</a></li>
+                            <li class="nav-item-direito"><a href="servicos.html" class="nav-item">Serviços</a></li>
+                            <li class="nav-item-direito"><a href="noticias.html" class="nav-item">Notícias</a></li>
+                            <li class="nav-item-direito"><a href="contato.html" class="nav-item">Contato</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-3">
+                <div class="container-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.900967628646!2d-47.45192362391209!3d-23.53113468469862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b72bdd65027%3A0xb94c5e9f90d48401!2sFatec%20Votorantim!5e0!3m2!1spt-BR!2sbr!4v1687123456789!5m2!1spt-BR!2sbr" 
+                        width="190" 
+                        height="170" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <h1 class="h1-map">Av. Juscelino Kubitschek de Oliveira, 279 - Protestantes, Votorantim - SP</h1>
+                    <div class="descicao">
+                        <p class="p-map">contato@ecoviva.com.br</p>
+                        <p class="p-map">(15) 3233-2414</p>
+                    </div>
+            </div>
+        </div>
+    </footer>   
+</body>
+</html>

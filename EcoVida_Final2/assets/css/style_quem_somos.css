@@ -1,0 +1,59 @@
+picture {
+  position: relative;
+  align-items: center;
+}
+
+picture > figcaption {
+  display: flex;
+  position: absolute;
+  bottom: 15px; 
+  left: 0;
+  background: #99E631;
+  color: #02391E;
+  padding: 10px 15px;
+  opacity: 0;
+  transition: opacity 300ms, left 300ms;
+}
+
+picture:hover > figcaption {
+  opacity: 1;
+  left: 15px;
+}
+
+#todos_itens{  
+  font-size: large;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color: #02391E;    
+}
+
+.container {
+  background-image: url("retangulo.png");
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #99e631;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.row_1{     
+    display: flex;
+    padding: 60px;
+    align-items:flex-end;
+    
+}
+#quem_somos{
+  
+  align-items: normal;
+  justify-content: center;
+  text-align: center;  
+ 
+  
+}
+
+#titulo{
+  text-align: center;    
+  }
